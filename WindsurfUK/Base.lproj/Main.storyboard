@@ -503,7 +503,7 @@
             </objects>
             <point key="canvasLocation" x="-1007" y="49"/>
         </scene>
-        <!--Pollution Viewcontroller View Controller-->
+        <!--Pollution-->
         <scene sceneID="rl9-Gw-Wa9">
             <objects>
                 <viewController id="tlm-Vd-d6u" customClass="PollutionViewcontrollerViewController" customModule="WindsurfChannelUK" customModuleProvider="target" sceneMemberID="viewController">
@@ -514,10 +514,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4a-3M-bTb">
                                 <rect key="frame" x="80" y="570" width="254" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <color key="tintColor" name="AccentColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="large" buttonSize="large" titleAlignment="center">
+                                <buttonConfiguration key="configuration" style="filled" buttonSize="large" titleAlignment="center">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Click Me! for pollution checker">
                                             <attributes>
@@ -526,9 +526,13 @@
                                             </attributes>
                                         </fragment>
                                     </attributedString>
-                                    <color key="baseForegroundColor" systemColor="systemYellowColor"/>
-                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" systemColor="tertiarySystemBackgroundColor"/>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="saslink:" destination="tlm-Vd-d6u" eventType="touchUpInside" id="gzC-4H-odg"/>
                                 </connections>
@@ -539,9 +543,9 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X0V-dE-oFx"/>
-                        <color key="backgroundColor" systemColor="systemCyanColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="NgY-F7-HJG"/>
+                    <navigationItem key="navigationItem" title="Pollution" id="NgY-F7-HJG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nuo-t3-YZW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -593,8 +597,8 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2wh-Pl-th7" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Pollution" image="trash" catalog="system" selectedImage="trash" id="evv-7z-GGK"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5EA-fp-P8b">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="5EA-fp-P8b">
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -626,12 +630,6 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemCyanColor">
-            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
@@ -640,6 +638,9 @@
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
