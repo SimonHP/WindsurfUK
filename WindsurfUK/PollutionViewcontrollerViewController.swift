@@ -19,7 +19,9 @@ class PollutionViewcontrollerViewController: UIViewController {
     @IBAction func saslink(_ sender: UIButton) {UIApplication.shared.open(URL(string:"https://www.sas.org.uk/water-quality/sewage-pollution-alerts/")!as URL, options :[:], completionHandler: nil)
     }
     
+    @IBAction func DONATE(_ sender: Any) {UIApplication.shared.open(URL(string:"https://www.sas.org.uk/donate/")!as URL, options :[:], completionHandler: nil)
     }
+}
     
     
 
