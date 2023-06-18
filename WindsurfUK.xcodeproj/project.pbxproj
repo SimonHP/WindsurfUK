@@ -19,6 +19,7 @@
 		21D7A24F2591A4B900B96606 /* KiteSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7A24E2591A4B900B96606 /* KiteSizeViewController.swift */; };
 		9FAF2BDE25B49BAF00A6044B /* MetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAF2BDD25B49BAF00A6044B /* MetResponse.swift */; };
 		EF8850B02A27B66C00EFF15F /* PollutionViewcontrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8850AF2A27B66C00EFF15F /* PollutionViewcontrollerViewController.swift */; };
+		EFC2697B2A3F6F4500CEA091 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC2697A2A3F6F4500CEA091 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		21D7A24E2591A4B900B96606 /* KiteSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiteSizeViewController.swift; sourceTree = "<group>"; };
 		9FAF2BDD25B49BAF00A6044B /* MetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetResponse.swift; sourceTree = "<group>"; };
 		EF8850AF2A27B66C00EFF15F /* PollutionViewcontrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollutionViewcontrollerViewController.swift; sourceTree = "<group>"; };
+		EFC2697A2A3F6F4500CEA091 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				9FAF2BDD25B49BAF00A6044B /* MetResponse.swift */,
 				21D7A24B25919B7700B96606 /* Model.swift */,
 				21D7A2382591950200B96606 /* Assets.xcassets */,
+				EFC2697A2A3F6F4500CEA091 /* Media.xcassets */,
 				21D7A23A2591950200B96606 /* LaunchScreen.storyboard */,
 				21D7A23D2591950200B96606 /* Info.plist */,
 			);
@@ -149,6 +152,7 @@
 			files = (
 				21D7A23C2591950200B96606 /* LaunchScreen.storyboard in Resources */,
 				21D7A2392591950200B96606 /* Assets.xcassets in Resources */,
+				EFC2697B2A3F6F4500CEA091 /* Media.xcassets in Resources */,
 				21D7A2372591950100B96606 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,7 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2R2464HZQX;
 				INFOPLIST_FILE = WindsurfUK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -326,7 +330,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 5.0;
+				MARKETING_VERSION = 7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WindsurfUK.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -342,7 +346,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2R2464HZQX;
 				INFOPLIST_FILE = WindsurfUK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -350,7 +354,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 5.0;
+				MARKETING_VERSION = 7.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WindsurfUK.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
